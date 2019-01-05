@@ -1,0 +1,32 @@
+body {
+  font-family: sans-serif;
+}
+
+
+#movies {
+  /*display: flex;*/
+}
+
+#movies .movie {
+  background-color: #eee;
+  margin: 12px;
+  padding: 8px;
+}
+
+#movies .movie img {
+  width: 200px;
+  height: 300px;
+}
+
+#movies .movie .actors {
+  display: flex;
+}
+
+#movies .movie .actors .actor {
+  margin: 12px;
+}
+
+#movies .movie .actors .actor img {
+  width: 200px;
+  height: 300px;
+}

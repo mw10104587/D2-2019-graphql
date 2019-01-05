@@ -1,0 +1,36 @@
+{
+  "name": "imdb-rest",
+  "version": "1.0.0",
+  "description": "A simple RESTful API for a movie database",
+  "main": "index.js",
+  "scripts": {
+    "build": "babel src -d build",
+    "start": "node build/index.js",
+    "dev": "babel-watch src/index.js"
+  },
+  "author": "Michael Paris",
+  "license": "MIT",
+  "dependencies": {
+    "babel-runtime": "^6.23.0",
+    "cors": "^2.8.3",
+    "express": "^4.15.2"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-plugin-transform-object-rest-spread": "^6.23.0",
+    "babel-plugin-transform-regenerator": "^6.24.1",
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-watch": "^2.0.6"
+  },
+  "babel": {
+    "presets": [
+      "es2015"
+    ],
+    "plugins": [
+      "transform-regenerator",
+      "transform-runtime",
+      "transform-object-rest-spread"
+    ]
+  }
+}
