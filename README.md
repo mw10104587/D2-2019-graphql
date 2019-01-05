@@ -1,7 +1,6 @@
-# Rest 2.0 is Here and its Name is GraphQL
-
-Brief description of the article and what it covers.
-Link to article on SitePoint (if known).
+# D2 2019 GraphQL 
+Implementation of the demo. 
+A modified version of this example: [Site Point GraphQL Articel](https://github.com/sitepoint-editors/sitepoint-graphql-article)
 
 ## Requirements
 
